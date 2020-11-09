@@ -1,0 +1,10 @@
+template_type: TF
+terraform_version: 0.12
+terraform_012_parameters:
+  - root_module: azure-pub-storage
+    # variable_files:
+    #   - azure-pub-storage/vars.tf
+tags:
+  - 'Org: Panw'
+  - 'Team: ShiftLeft'
+  - 'Env: Dev'
