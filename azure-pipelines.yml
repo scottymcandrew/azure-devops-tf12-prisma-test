@@ -18,7 +18,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: Prisma Cloud IaC Scan@2
+- task: Prisma Cloud IaC Scan@3
   inputs:
     # Set path to . to scan whole repo
     Path: '.'
